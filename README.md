@@ -34,6 +34,26 @@ pixi workspace environment add [OPTIONS] <NAME>
 pixi workspace environment add dev
 ```
 
+### List environments in a workspace
+```
+pixi workspace environment list
+```
+
+### Activate the environment
+```
+pixi shell --environment dev
+```
+
+### Install/add the dependency in the workspace
+```
+pixi add numpy
+```
+
+### To install the dependencies in the workspace from PyPI
+```
+pixi add --pypi numpy
+```
+
 
 
 
