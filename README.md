@@ -27,3 +27,13 @@ pixi clean cache
 ```
 pixi init
 ```
+
+### Create multiple environments
+pixi workspace environment add [OPTIONS] <NAME>
+```
+pixi workspace environment add dev
+```
+
+
+
+
