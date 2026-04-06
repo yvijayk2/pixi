@@ -12,3 +12,18 @@ powershell -ExecutionPolicy Bypass -c "irm -useb https://pixi.sh/install.ps1 | i
 ```
 curl -fsSL https://pixi.sh/install.sh | sh
 ```
+
+### Update the PIXI
+```
+pixi self-update
+```
+
+### Remove the cached data
+```
+pixi clean cache
+```
+
+### Create a new Pixi manifest in the current directory
+```
+pixi init
+```
