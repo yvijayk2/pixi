@@ -34,6 +34,11 @@ pixi workspace environment add [OPTIONS] <NAME>
 pixi workspace environment add dev
 ```
 
+### Remove the environment
+```
+pixi workspace environment remove dev
+```
+
 ### List environments in a workspace
 ```
 pixi workspace environment list
