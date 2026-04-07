@@ -65,7 +65,7 @@ pixi list
 ```
 
 ### To list the installed dependencied on an environment
-pixi list --environment <<env name>>
+pixi list --environment [ENV_NAME]
 ```
 pixi list --environment dev
 ```
