@@ -58,9 +58,16 @@ pixi add numpy
 ```
 pixi add --pypi numpy
 ```
+
 ### To list the installed dependencies in the acitve environment
 ```
 pixi list
+```
+
+### To list the installed dependencied on an environment
+pixi list --environment <<env name>>
+```
+pixi list --environment dev
 ```
 
 
